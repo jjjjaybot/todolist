@@ -4,7 +4,7 @@ import {FaChevronDown, FaInbox, FaRegCalendarAlt, FaRegCalendar} from 'react-ico
 function Sidebar() {
     return <div className="sidebar" data-testid="sidebar">
     <ul className="sidebar__generic">
-        <li><span><FaInbox /></span><span>Inbox</span></li>
+        <li data-testid="inbox" className="inbox"><span><FaInbox /></span><span>Inbox</span></li>
         <li><span><FaRegCalendar /></span><span>Today</span></li>
         <li><span><FaRegCalendarAlt /></span><span>Next Week</span></li>
     </ul>
