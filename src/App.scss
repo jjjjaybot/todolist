@@ -37,7 +37,7 @@
    // Variables
    $generic-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 4px 11px;
    $generic-border: px solid #f1f1f1;
-   $generic-bg: #2db924;
+   $generic-bg: #16c58c;
    $generic-bg-dm: #333;
    
    /* Mixins
@@ -164,7 +164,7 @@
    /* Header
      ============================================ */
    header {
-     border-bottom: solid 1px #29b318;
+     border-bottom: solid 1px #16c58c;
      background-color: $generic-bg;
      -webkit-transition: height 200ms ease-in;
      transition: height 200ms ease-in;
